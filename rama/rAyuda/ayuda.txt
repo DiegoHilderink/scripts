@@ -1,0 +1,18 @@
+Desarrollado por Diego Hilderink Dominguez
+Con licencia GNU
+Version dev-master
+
+El primer parametro que reciba el script debe ser el nombre del directorio a 
+crear. 
+
+
+Las opciones a emplear son:
+    "": Si el segundo parametro es vacio o nulo, se tomará en cuenta que se 
+        desea generar un solo fichero.
+    
+    -r: Si queremos generar un directorio que almacene un número determinado
+        de ficheros emplearemos esta opción. Sus nombres serán por defecto de
+        tipo numérico.
+
+Para generar otro tipo de plantilla deberá crear una nueva carpeta con su
+plantilla y agregarla al array en el código y en el switch de la línea 74
